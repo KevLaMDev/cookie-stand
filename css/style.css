@@ -29,3 +29,15 @@ div {
 #salesLink {
   text-align: center;
 }
+table, td, th {
+  border: 1px solid black;
+};
+
+#tfooter {
+  width: 100%;
+  border: 10px white;
+};
+
+section {
+  text-align: center;
+}
