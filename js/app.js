@@ -26,8 +26,8 @@ CreateStore.prototype.getCustsPerHour = function (min, max) {
 
 CreateStore.prototype.calcCookiesPerHour = function () {
   for (let i = 0; i < storeHours.length; i++) {
-    let cookies = Math.floor(this.getCustsPerHour(this.min, this.max));
-    this.cookieSalesPerHourArr.push(Math.floor(this.avgSale * cookies));
+    let custs = this.getCustsPerHour(this.min, this.max);
+    this.cookieSalesPerHourArr.push(Math.floor(this.avgSale * custs));
   }
 };
 
