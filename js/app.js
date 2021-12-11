@@ -180,9 +180,9 @@ function handleSubmit(event) {
   event.preventDefault();
   let prexisting = false;
   let city = event.target.city.value;
-  let min = event.target.min.value;
-  let max = event.target.max.value;
-  let avgSale = event.target['avg-sale'].value;
+  let min = +event.target.min.value;
+  let max = +event.target.max.value;
+  let avgSale = +event.target['avg-sale'].value;
   city = city.charAt(0).toUpperCase() + city.slice(1);
   for (let i = 0; i < cities.length; i++) {
     if (cities[i].city === city) {
