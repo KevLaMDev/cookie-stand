@@ -67,9 +67,8 @@ header>div {
   font-size: 125%;
 }
 
-#seattleHomepage {
-  background-image: url(https://media.gettyimages.com/photos/panoramic-skyline-of-seattle-in-washington-state-united-states-picture-id1151457784?s=170667a);
-  min-width: fit-content;
+header > img {
+  float: right;
 }
 
 #salesLink {
